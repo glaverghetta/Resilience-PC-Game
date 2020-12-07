@@ -8,3 +8,5 @@ public class beginGame : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 }
+
+
