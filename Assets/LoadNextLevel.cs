@@ -5,6 +5,8 @@ public class LoadNextLevel : MonoBehaviour
 {
     public void NextLevel()
     {
-        SceneManager.LoadScene(2);
+        // go forward 1 scene
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex + 1);
     }
 }
