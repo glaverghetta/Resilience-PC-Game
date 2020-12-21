@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.collider.name == "The Ground")
+        if (other.collider.name == "The Ground" || other.collider.name == "Level 2 Ground")
         {
             Debug.Log("jump is true");
             canJump = true;

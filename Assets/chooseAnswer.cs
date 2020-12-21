@@ -5,56 +5,43 @@ public class chooseAnswer : MonoBehaviour
 {
     public void goToLevel1()
     {
-        // go back to previous level (scene)
-       // Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(1);
-
-        //SceneManager.LoadScene(1);
     }
 
     public void goToL1WrongAnswer()
     {
-        // go back to previous level (scene)
-        // Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(4);
+    }
 
-        //SceneManager.LoadScene(1);
+    public void goToLevel2Intro()
+    {
+        SceneManager.LoadScene(5);
     }
 
     public void goToLevel2()
     {
-        // go back to previous level (scene)
-        // Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(5);
-
-        //SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
 
     public void goToL2WrongAnswer()
     {
-        // go back to previous level (scene)
-        // Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(9);
+    }
 
-        //SceneManager.LoadScene(1);
+    public void goToLevel3Intro()
+    {
+        SceneManager.LoadScene(10);
     }
 
     public void goToLevel3()
     {
-        // go back to previous level (scene)
-        // Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(9);
-
-        //SceneManager.LoadScene(1);
+        SceneManager.LoadScene(11);
     }
 
     public void goToL3WrongAnswer()
     {
-        // go back to previous level (scene)
-        // Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(14);
 
-        //SceneManager.LoadScene(1);
     }
 
     public void goBackTwoLevels()

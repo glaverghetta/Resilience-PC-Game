@@ -7,6 +7,11 @@ public class beginGame : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void goToChangeColor()
+    {
+        SceneManager.LoadScene(16);
+    }
 }
 
 

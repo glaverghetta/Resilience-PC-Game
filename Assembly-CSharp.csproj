@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Question6.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\chooseAnswer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -63,10 +64,11 @@
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\credits.cs" />
     <Compile Include="Assets\EndTrigger.cs" />
+    <Compile Include="Assets\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-    <Compile Include="Assets\Question6.cs" />
+    <Compile Include="Assets\ChangeColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

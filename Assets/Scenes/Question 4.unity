@@ -628,7 +628,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 670526415}
         m_TargetAssemblyTypeName: chooseAnswer, Assembly-CSharp
-        m_MethodName: goToLevel3
+        m_MethodName: goToLevel3Intro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3504361, g: 0.7252183, b: 0.990566, a: 1}
+  m_Color: {r: 0.5137255, g: 0.67058825, b: 0.81960785, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
