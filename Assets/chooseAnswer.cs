@@ -41,7 +41,15 @@ public class chooseAnswer : MonoBehaviour
     public void goToL3WrongAnswer()
     {
         SceneManager.LoadScene(14);
+    }
+    public void goToLevel4()
+    {
+        SceneManager.LoadScene(16);
+    }
 
+    public void goToL4WrongAnswer()
+    {
+        SceneManager.LoadScene(19);
     }
 
     public void goBackTwoLevels()

@@ -51,6 +51,21 @@ EditorBuildSettings:
     path: Assets/Scenes/L3 Wrong Answer.unity
     guid: 3bbbff1d0be65134fa27dc6674b316e9
   - enabled: 1
+    path: Assets/Scenes/Level 4 Intro.unity
+    guid: e042da92f5510dd49bf37b3e8ca78b7a
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: b90cf21608679dd408713461586c00b0
+  - enabled: 1
+    path: Assets/Scenes/Question 7.unity
+    guid: 2f612c728e318d94b9af23d9a1811423
+  - enabled: 1
+    path: Assets/Scenes/Question 8.unity
+    guid: 250e5bdef98a1de4ebd42505a1d76f6e
+  - enabled: 1
+    path: Assets/Scenes/L4 Wrong Answer.unity
+    guid: bb7de6298648e6b4298c308c95b1ec3a
+  - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 31d36ad681172dc4e83d1974d3c42d94
   - enabled: 1

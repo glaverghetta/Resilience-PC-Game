@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts 3D\MouseLook.cs" />
     <Compile Include="Assets\chooseAnswer.cs" />
+    <Compile Include="Assets\Scripts 3D\DoorButton.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\beginGame.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
@@ -69,11 +70,14 @@
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts 3D\PressButtons.cs" />
     <Compile Include="Assets\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts 3D\DoorButton.cs" />
-    <Compile Include="Assets\Scripts 3D\PressButtons.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript1.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript2.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript3.cs" />
+    <Compile Include="Assets\Question8.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

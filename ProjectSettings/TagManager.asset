@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Music
+  - Moving Obstacle
   layers:
   - Default
   - TransparentFX

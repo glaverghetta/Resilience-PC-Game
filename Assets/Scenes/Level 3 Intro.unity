@@ -675,7 +675,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Awesome! One more level to go...
+  m_Text: Awesome! Let's move on...
 --- !u!222 &1139134346
 CanvasRenderer:
   m_ObjectHideFlags: 0
