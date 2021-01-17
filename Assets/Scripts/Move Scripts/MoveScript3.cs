@@ -5,7 +5,6 @@ public class MoveScript3 : MonoBehaviour
 {
     void OnTriggerEnter()
     {
-        Debug.Log("got here");
         GameObject[] obstacles = GameObject.FindGameObjectsWithTag("Moving Obstacle");
         for (int i = 0; i < obstacles.Length; i++)
         {
