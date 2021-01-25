@@ -3,6 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class chooseAnswer : MonoBehaviour
 {
+    //public AudioSource location;
+    //public AudioClip sound;
+
+    //public void playSound()
+    //{
+    //    location.clip = sound;
+    //}
+
     public void goToLevel1()
     {
         SceneManager.LoadScene(1);

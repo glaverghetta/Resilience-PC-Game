@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\beginGame.cs" />
     <Compile Include="Assets\Scripts\Move Scripts\MoveScript1.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript4.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts 3D\PlayerMovement3D.cs" />
     <Compile Include="Assets\credits.cs" />
@@ -78,9 +79,9 @@
     <Compile Include="Assets\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\Move Scripts\MoveScript4.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Mats\NoFog.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
