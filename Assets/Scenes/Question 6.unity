@@ -858,6 +858,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058463281}
   m_CullTransparentMesh: 0
+--- !u!1001 &1060539904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 132.25836
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 314.43182
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 281.04752
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595498, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742644419018595500, guid: 5129cce7c0044c445b6b0ee5b084112b,
+        type: 3}
+      propertyPath: m_Name
+      value: WinLevelSound
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5129cce7c0044c445b6b0ee5b084112b, type: 3}
 --- !u!1 &1139134343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,11 +1703,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'I try to aviod new things because I am
+  m_Text: 'I try to avoid new things because I am
 
-    afraid of failure.
-
-'
+    afraid of failure.'
 --- !u!222 &1680169442
 CanvasRenderer:
   m_ObjectHideFlags: 0
