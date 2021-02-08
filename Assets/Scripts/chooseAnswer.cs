@@ -60,6 +60,16 @@ public class chooseAnswer : MonoBehaviour
         SceneManager.LoadScene(19);
     }
 
+    public void goToLevel5()
+    {
+        SceneManager.LoadScene(21);
+    }
+
+    public void goToL5WrongAnswer()
+    {
+        SceneManager.LoadScene(24);
+    }
+
     public void goBackTwoLevels()
     {
         Scene currentScene = SceneManager.GetActiveScene();

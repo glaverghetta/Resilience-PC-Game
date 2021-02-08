@@ -74,6 +74,10 @@
     <Compile Include="Assets\Scripts\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript5.cs" />
+    <Compile Include="Assets\Scripts\Move Scripts\MoveScript6.cs" />
+    <Compile Include="Assets\Scripts\Question10.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mats\NoFog.shader" />

@@ -873,7 +873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 136.1}
+  m_AnchoredPosition: {x: 0, y: 172}
   m_SizeDelta: {x: 565.7272, y: 382.04785}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1139134345
@@ -909,7 +909,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to SELENA PC
+  m_Text: 'Welcome to SELENA PC
+
+    The Growth Mindset'
 --- !u!222 &1139134346
 CanvasRenderer:
   m_ObjectHideFlags: 0

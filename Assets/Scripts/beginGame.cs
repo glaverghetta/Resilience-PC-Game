@@ -10,7 +10,7 @@ public class beginGame : MonoBehaviour
 
     public void goToChangeColor()
     {
-        SceneManager.LoadScene(21);
+        SceneManager.LoadScene(26);
     }
 }
 
