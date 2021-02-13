@@ -991,9 +991,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Push the button to start.
+  m_Text: 'Click Begin to start.
 
-    Press spacebar to jump.
+    Press the spacebar to jump.
 
     Hold A to
     move left and D to move right.
