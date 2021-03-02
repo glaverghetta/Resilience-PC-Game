@@ -8,33 +8,35 @@ public class GameManager : MonoBehaviour
     public float restartDelay = 1f;
 
     public GameObject completeLevelUI;
+    public GameObject answerQuestionUI;
+    public Rigidbody player;
 
 
-   /* private void Start()
-    {
-        Debug.Log("starting");
-        if(playerColor == Color.green)
-        {
-            Debug.Log("color is green");
-        }
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            MeshRenderer renderer = player.GetComponent<MeshRenderer>();
-            renderer.material.color = playerColor;
-        }
-    }
+    /* private void Start()
+     {
+         Debug.Log("starting");
+         if(playerColor == Color.green)
+         {
+             Debug.Log("color is green");
+         }
+         GameObject player = GameObject.FindGameObjectWithTag("Player");
+         if (player != null)
+         {
+             MeshRenderer renderer = player.GetComponent<MeshRenderer>();
+             renderer.material.color = playerColor;
+         }
+     }
 
-    public void changeColorToCyan()
-    {
-        playerColor = Color.cyan;
-    }
+     public void changeColorToCyan()
+     {
+         playerColor = Color.cyan;
+     }
 
-    public void changeColorToGreen()
-    {
-        playerColor = Color.green;
-        Debug.Log("Green now");
-    } */
+     public void changeColorToGreen()
+     {
+         playerColor = Color.green;
+         Debug.Log("Green now");
+     } */
 
     public void CompleteLevel()
     {
@@ -46,14 +48,21 @@ public class GameManager : MonoBehaviour
         if (!hasEnded)
         {
             hasEnded = true;
-            Debug.Log("game over");
             Invoke("Restart", restartDelay);
         }
     }
 
+    public void CanGameOverAgain()
+    {
+        hasEnded = false;
+    }
+
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        answerQuestionUI.SetActive(true);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+
 
 }

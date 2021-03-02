@@ -7,6 +7,8 @@ TagManager:
   - Obstacle
   - Music
   - Moving Obstacle
+  - StartingPoint
+  - Move back point
   layers:
   - Default
   - TransparentFX
