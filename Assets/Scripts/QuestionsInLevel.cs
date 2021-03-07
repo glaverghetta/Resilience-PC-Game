@@ -33,7 +33,8 @@ public class QuestionsInLevel : MonoBehaviour
 
     public void MovePlayer()
     {
-        playerRigidBody.useGravity = true;
+        print("GRAVITY SHOULD BE TURNED ON!");
+        //playerRigidBody.useGravity = true;
         rightAnswerUI.SetActive(false);
  
         float playerZ = player.transform.position.z;
@@ -41,12 +42,12 @@ public class QuestionsInLevel : MonoBehaviour
 
         for(int i = 1; i < moveBackPoints.Length; i++)
         {
-            print(moveBackPoints[i].transform.position.z + " " + playerZ);
+           // print(moveBackPoints[i].transform.position.z + " " + playerZ);
             if(moveBackPoints[i].transform.position.z < playerZ && moveBackPoints[i].transform.position.z > pointToTravelTo.transform.position.z)
             {
-                print("inside if");
+                //print("inside if");
                 pointToTravelTo = moveBackPoints[i];
-                print(pointToTravelTo.transform.position.z);
+                //print(pointToTravelTo.transform.position.z);
             }
         }
 

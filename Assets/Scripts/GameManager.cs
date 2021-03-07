@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
     public void CanGameOverAgain()
     {
         hasEnded = false;
+        player.useGravity = true;
     }
 
     void Restart()
