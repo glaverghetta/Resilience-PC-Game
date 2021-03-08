@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637451133414734766
-    m_Hash: 4052403238
+      ticks: 637507519796812045
+    m_Hash: 2429001870
   m_LockFileStatus:
     m_FilePath: C:/Users/glaverghetta.MYDOM/Desktop/Unity Projects/Resilience-PC-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637451133422322466
-    m_Hash: 3247777469
+      ticks: 637507519820012024
+    m_Hash: 664634206
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -158,6 +158,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -180,6 +182,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         verified: 1.2.1
       dependencies:
       - name: com.unity.test-framework
@@ -247,6 +251,7 @@ m_PackageAssets:
         - 2.0.2
         - 2.0.3
         - 2.0.5
+        - 2.0.7
         compatible:
         - 1.0.2
         - 1.0.3
@@ -259,7 +264,8 @@ m_PackageAssets:
         - 2.0.2
         - 2.0.3
         - 2.0.5
-        verified: 2.0.5
+        - 2.0.7
+        verified: 2.0.7
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -352,136 +358,6 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.probuilder@4.4.0
-      testable: 0
-      isDirectDependency: 1
-      version: 4.4.0
-      source: 1
-      resolvedPath: C:\Users\glaverghetta.MYDOM\Desktop\Unity Projects\Resilience-PC-Game\Library\PackageCache\com.unity.probuilder@4.4.0
-      assetPath: Packages/com.unity.probuilder
-      name: com.unity.probuilder
-      displayName: ProBuilder
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
-        for in-scene level design, prototyping, collision meshes, all with on-the-fly
-        play-testing.
-
-
-        Advanced features include UV editing, vertex colors,
-        parametric shapes, and texture blending. With ProBuilder''s model export
-        feature it''s easy to tweak your levels in any external 3D modelling suite.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 3.0.0
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.6
-        - 3.0.8
-        - 3.0.9
-        - 3.10.1
-        - 4.0.2
-        - 4.0.3
-        - 4.0.4
-        - 4.0.5
-        - 4.1.0
-        - 4.1.2
-        - 4.2.1
-        - 4.2.2-preview.1
-        - 4.2.2-preview.2
-        - 4.2.3
-        - 4.2.4-preview.0
-        - 4.3.0-preview.0
-        - 4.3.0-preview.1
-        - 4.3.0-preview.2
-        - 4.3.0-preview.4
-        - 4.3.0-preview.6
-        - 4.3.0-preview.7
-        - 4.3.0-preview.8
-        - 4.3.0-preview.9
-        - 4.3.1
-        - 4.4.0-preview.1
-        - 4.4.0
-        - 5.0.0-pre.7
-        compatible:
-        - 4.0.2
-        - 4.0.3
-        - 4.0.4
-        - 4.0.5
-        - 4.1.0
-        - 4.1.2
-        - 4.2.1
-        - 4.2.2-preview.1
-        - 4.2.2-preview.2
-        - 4.2.3
-        - 4.2.4-preview.0
-        - 4.3.0-preview.0
-        - 4.3.0-preview.1
-        - 4.3.0-preview.2
-        - 4.3.0-preview.4
-        - 4.3.0-preview.6
-        - 4.3.0-preview.7
-        - 4.3.0-preview.8
-        - 4.3.0-preview.9
-        - 4.3.1
-        - 4.4.0-preview.1
-        - 4.4.0
-        - 5.0.0-pre.7
-        verified: 4.4.0
-      dependencies:
-      - name: com.unity.settings-manager
-        version: 1.0.3
-      resolvedDependencies:
-      - name: com.unity.settings-manager
-        version: 1.0.3
-      keywords:
-      - 3d
-      - model
-      - mesh
-      - modeling
-      - geometry
-      - shape
-      - cube
-      - blender
-      - max
-      - maya
-      - fbx
-      - obj
-      - level
-      - design
-      - block
-      - greybox
-      - graybox
-      - whitebox
-      - prototype
-      - probuilder
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637334581170000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
-        revision: 04b57a20391934bc7460d5fe1017d157545b2a5f
-        path: 
     - packageId: com.unity.test-framework@1.1.18
       testable: 0
       isDirectDependency: 1
@@ -528,11 +404,15 @@ m_PackageAssets:
         - 1.1.18
         - 1.1.19
         - 1.1.20
+        - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.18
         - 1.1.19
         - 1.1.20
-        verified: 1.1.20
+        - 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.0
@@ -645,6 +525,7 @@ m_PackageAssets:
         - 1.5.0
         - 1.5.1
         - 1.5.3
+        - 1.5.4
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -663,6 +544,7 @@ m_PackageAssets:
         - 2.1.0
         - 2.1.1
         - 2.1.3
+        - 2.1.4
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -677,10 +559,12 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -717,12 +601,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
         revision: 1604b62e543216408311bcd1355a7a9ca1e65765
         path: 
-    - packageId: com.unity.timeline@1.2.17
+    - packageId: com.unity.timeline@1.3.6
       testable: 0
       isDirectDependency: 1
-      version: 1.2.17
+      version: 1.3.6
       source: 1
-      resolvedPath: C:\Users\glaverghetta.MYDOM\Desktop\Unity Projects\Resilience-PC-Game\Library\PackageCache\com.unity.timeline@1.2.17
+      resolvedPath: C:\Users\glaverghetta.MYDOM\Desktop\Unity Projects\Resilience-PC-Game\Library\PackageCache\com.unity.timeline@1.3.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -755,6 +639,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -767,6 +652,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -779,6 +665,7 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -788,6 +675,8 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
+        - 1.5.2
+        - 1.6.0-pre.1
         compatible:
         - 1.2.6
         - 1.2.7
@@ -800,6 +689,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -812,6 +702,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -824,6 +715,7 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -833,7 +725,9 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
-        verified: 1.3.6
+        - 1.5.2
+        - 1.6.0-pre.1
+        verified: 1.3.7
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -854,13 +748,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637359677410000000
+      datePublishedTicks: 637359675340000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 61fddfa7b542abc7f76e04771589393fbd5a55b8
+        revision: d9d35444c8403989a7e2099b1dafeb73d2033e37
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -2727,64 +2621,6 @@ m_PackageAssets:
         type: git
         url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git
         revision: c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9
-        path: 
-    - packageId: com.unity.settings-manager@1.0.3
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.3
-      source: 1
-      resolvedPath: C:\Users\glaverghetta.MYDOM\Desktop\Unity Projects\Resilience-PC-Game\Library\PackageCache\com.unity.settings-manager@1.0.3
-      assetPath: Packages/com.unity.settings-manager
-      name: com.unity.settings-manager
-      displayName: Settings Manager
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: A framework for making any serializable field a setting, complete
-        with a pre-built settings interface.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        compatible:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        verified: 1.0.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637300096300000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
