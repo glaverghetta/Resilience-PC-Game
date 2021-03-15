@@ -15,6 +15,9 @@ public class QuestionsInLevel : MonoBehaviour
 
     public PlayerMovement movement;
 
+    public delegate void WrongAnswerDelegate();
+    public event WrongAnswerDelegate wrongAnswerEvent;
+
     void Start()
     {
         moveBackPoints = GameObject.FindGameObjectsWithTag("Move back point");
@@ -84,6 +87,11 @@ public class QuestionsInLevel : MonoBehaviour
 
     public void WrongAnswer()
     {
+        if(wrongAnswerEvent != null)
+        {
+            wrongAnswerEvent();
+        }
+
         wrongAnswerUI.SetActive(true);
         gameObject.SetActive(false);
         answerQuestionUI.SetActive(false);

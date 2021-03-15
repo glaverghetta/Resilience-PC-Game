@@ -11,32 +11,8 @@ public class GameManager : MonoBehaviour
     public GameObject answerQuestionUI;
     public Rigidbody player;
 
-
-    /* private void Start()
-     {
-         Debug.Log("starting");
-         if(playerColor == Color.green)
-         {
-             Debug.Log("color is green");
-         }
-         GameObject player = GameObject.FindGameObjectWithTag("Player");
-         if (player != null)
-         {
-             MeshRenderer renderer = player.GetComponent<MeshRenderer>();
-             renderer.material.color = playerColor;
-         }
-     }
-
-     public void changeColorToCyan()
-     {
-         playerColor = Color.cyan;
-     }
-
-     public void changeColorToGreen()
-     {
-         playerColor = Color.green;
-         Debug.Log("Green now");
-     } */
+    public delegate void GameOverDelegate();
+    public event GameOverDelegate gameOverEvent;
 
     public void CompleteLevel()
     {
@@ -48,6 +24,12 @@ public class GameManager : MonoBehaviour
         if (!hasEnded)
         {
             hasEnded = true;
+
+            if(gameOverEvent != null)
+            {
+                gameOverEvent();
+            }
+
             Invoke("Restart", restartDelay);
         }
     }
@@ -63,7 +45,5 @@ public class GameManager : MonoBehaviour
         answerQuestionUI.SetActive(true);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-
 
 }

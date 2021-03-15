@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\StarRating.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mats\NoFog.shader" />

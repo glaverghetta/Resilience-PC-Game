@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class MoveScript2 : MonoBehaviour
 {
+    bool flag = false;
     void OnTriggerEnter()
     {
+        if (flag)
+        {
+            return;
+        }
+        flag = true;
         Debug.Log("got here");
         GameObject[] obstacles = GameObject.FindGameObjectsWithTag("Moving Obstacle");
         for (int i = 0; i < obstacles.Length; i++)
