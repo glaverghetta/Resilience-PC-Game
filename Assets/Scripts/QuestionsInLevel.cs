@@ -45,22 +45,20 @@ public class QuestionsInLevel : MonoBehaviour
 
         for(int i = 1; i < moveBackPoints.Length; i++)
         {
-           // print(moveBackPoints[i].transform.position.z + " " + playerZ);
             if(moveBackPoints[i].transform.position.z < playerZ && moveBackPoints[i].transform.position.z > pointToTravelTo.transform.position.z)
             {
-                //print("inside if");
                 pointToTravelTo = moveBackPoints[i];
-                //print(pointToTravelTo.transform.position.z);
             }
         }
 
         Vector3 vectorToTravel = new Vector3(pointToTravelTo.transform.position.x, pointToTravelTo.transform.position.y, pointToTravelTo.transform.position.z);
 
-        StartCoroutine(MoveOverSeconds(player, vectorToTravel, 1.5f));
+       StartCoroutine(MoveOverSeconds(player, vectorToTravel, 1.5f));
     }
 
     IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 end, float seconds)
     {
+        PauseGame.canGameBePaused = false;
         float elapsedTime = 0;
         Vector3 startingPos = objectToMove.transform.position;
         while (elapsedTime < seconds)
@@ -72,7 +70,8 @@ public class QuestionsInLevel : MonoBehaviour
         //transform.position = end;
         FindObjectOfType<GameManager>().CanGameOverAgain();
         movement.enabled = true;
-        
+        PauseGame.canGameBePaused = true;
+
     }
 
     IEnumerator Move(Vector3 destination, float speed)

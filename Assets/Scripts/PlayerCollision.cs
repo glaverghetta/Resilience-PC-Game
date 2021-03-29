@@ -9,6 +9,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collisionInfo.collider.tag == "Obstacle" || collisionInfo.collider.tag == "Moving Obstacle")
         {
+            PauseGame.canGameBePaused = false;
             player.useGravity = false;
             movement.enabled = false;
             FindObjectOfType<GameManager>().GameOver();

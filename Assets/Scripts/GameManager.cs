@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
     void Restart()
     {
         answerQuestionUI.SetActive(true);
+        PauseGame.canGameBePaused = true;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
