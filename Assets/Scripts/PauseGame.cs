@@ -11,7 +11,7 @@ public class PauseGame : MonoBehaviour
     public GameObject pauseUI;                  // UI that appears when the game is paused
 
     public static bool canGameBePaused = true;  // is the game in a state where pausing is feasible right now?
-    bool isGamePaused = false;                  // is the game currently paused?
+    public static bool isGamePaused = false;                  // is the game currently paused?
 
     void Update()
     {

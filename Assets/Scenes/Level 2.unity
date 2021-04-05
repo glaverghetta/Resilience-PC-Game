@@ -25939,22 +25939,22 @@ PrefabInstance:
     - target: {fileID: 1580958911139759845, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
       propertyPath: m_Text
-      value: Wrong
+      value: False
       objectReference: {fileID: 0}
     - target: {fileID: 1596336903846734790, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
       propertyPath: m_Text
-      value: Right
+      value: True
       objectReference: {fileID: 0}
     - target: {fileID: 2477791402945256345, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
       propertyPath: m_Text
-      value: Question
+      value: "True or false: A mistake can be \nused as a learning opportunity."
       objectReference: {fileID: 0}
     - target: {fileID: 2477791402945256345, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 47
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3000357887143827515, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
@@ -26105,6 +26105,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230408784134434030, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192410350765958384, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8235205477834059990, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
