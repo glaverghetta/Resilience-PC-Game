@@ -2,7 +2,6 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    public static bool isGamePaused = false;
     public Rigidbody rb;
 
     public float forwardForce = 200f;
@@ -19,8 +18,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate() //FixedUpdate is prefered over Update for handling physics
     {
-        if (!isGamePaused)
+        if (!PauseGame.isGamePaused)
         {
+            print("force being added");
             rb.AddForce(0, 0, forwardForce * Time.deltaTime); // deltaTime accounts for differences in framerate
 
             if (Input.GetKey("d"))
@@ -37,14 +37,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 FindObjectOfType<GameManager>().GameOver();
             }
-        }
-        
+        }       
 
     }
 
     void Update()
     {
-        if (!isGamePaused)
+        if (!PauseGame.isGamePaused)
         {
             if (Input.GetButtonDown("Jump") && canJump)
             {

@@ -12,28 +12,35 @@ public class beginGame : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void showInstructions()
+    /* Display the specified UI element */
+    public void showComponent(GameObject component)
     {
-        welcomeScreen.SetActive(false);
-        instructions.SetActive(true);
+        if (component.name.Equals("Star Rating"))
+        {
+            component.SetActive(true);
+            instructions.SetActive(false);
+        }
+        else
+        { 
+            component.SetActive(true);
+            welcomeScreen.SetActive(false);
+        }
+        
     }
 
-    public void hideInstructions()
+    /* Hide the specified UI element */
+    public void hideComponent(GameObject component)
     {
-        welcomeScreen.SetActive(true);
-        instructions.SetActive(false);
-    }
-
-    public void showStarRatingText()
-    {
-        welcomeScreen.SetActive(false);
-        starRatingText.SetActive(true);
-    }
-
-    public void hideStarRatingText()
-    {
-        welcomeScreen.SetActive(true);
-        starRatingText.SetActive(false);
+        if (component.name.Equals("Star Rating"))
+        {
+            instructions.SetActive(true);
+            component.SetActive(false);
+        }
+        else
+        {
+            welcomeScreen.SetActive(true);
+            component.SetActive(false);
+        }
     }
 
     public void goToChangeColor()

@@ -52595,6 +52595,36 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseGame, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 1223677155774879194, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223677155774879194, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580958911139759845, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_Text
+      value: Fixed mindset
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596336903846734790, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_Text
+      value: Growth mindset
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030736476800892172, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030736476800892172, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 2477791402945256345, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
       propertyPath: m_Text
@@ -52791,6 +52821,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReloadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686554708869200416, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1275300920}
+    - target: {fileID: 8686554708869200416, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: backToMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686554708869200416, guid: 6b6293bc6bb02404aa6f94c0794b086b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseGame, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8767536418714266430, guid: 6b6293bc6bb02404aa6f94c0794b086b,
         type: 3}
