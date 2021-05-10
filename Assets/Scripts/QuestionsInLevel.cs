@@ -10,6 +10,7 @@ public class QuestionsInLevel : MonoBehaviour
     public GameObject answerQuestionUI;
 
     public GameObject[] moveBackPoints;
+    public GameObject earliestMoveBackPoint;
     public GameObject player;
     public Rigidbody playerRigidBody;
 
@@ -21,6 +22,13 @@ public class QuestionsInLevel : MonoBehaviour
     void Start()
     {
         moveBackPoints = GameObject.FindGameObjectsWithTag("Move back point");
+
+        earliestMoveBackPoint = moveBackPoints[0];
+        for(int i = 1; i < moveBackPoints.Length; i++)
+        {
+            if (moveBackPoints[i].transform.position.z < earliestMoveBackPoint.transform.position.z)
+                earliestMoveBackPoint = moveBackPoints[i];
+        }
 
         foreach(GameObject p in moveBackPoints)
         {
@@ -41,7 +49,8 @@ public class QuestionsInLevel : MonoBehaviour
         rightAnswerUI.SetActive(false);
  
         float playerZ = player.transform.position.z;
-        GameObject pointToTravelTo = moveBackPoints[0];
+        GameObject pointToTravelTo = earliestMoveBackPoint;
+        //GameObject pointToTravelTo = moveBackPoints[0];
 
         for(int i = 1; i < moveBackPoints.Length; i++)
         {

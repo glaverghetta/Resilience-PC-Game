@@ -5,21 +5,21 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleExecutable</key>
-    <string>Intro Project</string>
+    <string>Selena PC The Growth Mindset</string>
     <key>CFBundleGetInfoString</key>
     <string>Unity Player version 2020.1.15f1 (97d0ae02d19d). (c) 2020 Unity Technologies ApS. All rights reserved.</string>
     <key>CFBundleIconFile</key>
     <string>PlayerIcon.icns</string>
     <key>CFBundleIdentifier</key>
-    <string>com.GabrielLaverghetta.IntroProject</string>
+    <string>com.ResilienceInc..SelenaPCTheGrowthMindset</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>Intro Project</string>
+    <string>Selena PC The Growth Mindset</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1</string>
+    <string>1.0</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
