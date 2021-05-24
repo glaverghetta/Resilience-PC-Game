@@ -1,7 +1,7 @@
 # Resilience PC Game
 
-A PC game developed by Resilience, Inc. with the goal of helping students learn and master the SEL curriculum in a fun and interactive manner.
+A PC game developed by Resilience, Inc. using the Unity game engine with the goal of helping students learn and master the SEL curriculum in a fun and interactive manner.
 
-The game currently consists of one level broken up into five separate stages. These stages focus on the Growth Mindset. The player is asked two questions in between each stage. Note that the stages are currently called "levels" in the code; this might change in the future. We hope to eventually have 12 levels, each corresponding to a module of the SELENA curriculum.
+The game currently consists of one level broken up into five separate stages. These stages focus on the Growth Mindset. The player is asked two questions in between each stage. Questions may also be asked within each stage. There are a total of 15 unique questions present in the game.
 
-There are two builds for the game as of 2/13/21: one for Windows and one for Mac. These are located in the Builds folder.
+There are three builds for the game as of 5/10/21: one for Windows, one for Mac, and one for WebGL. These are located in the Builds folder. A setup executable program is also available for the Windows build.
