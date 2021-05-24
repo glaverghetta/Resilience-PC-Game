@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+/* This script allows a game object to persist across scenes, which is useful for some elements of the game (namely, the background music) */
 public class DontDestroy : MonoBehaviour
 {
     //runs as soon as the object gets created

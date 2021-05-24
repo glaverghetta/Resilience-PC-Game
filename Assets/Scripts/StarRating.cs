@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/* This class manages the Star Ratings that the player earns after completing each level. */
 public class StarRating : MonoBehaviour
 {
     public static int currentStarRating = 3;

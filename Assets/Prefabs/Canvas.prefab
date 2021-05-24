@@ -52,6 +52,7 @@ MonoBehaviour:
   wrongAnswerUI: {fileID: 2737959915814531823}
   answerQuestionUI: {fileID: 6192410350765958384}
   moveBackPoints: []
+  earliestMoveBackPoint: {fileID: 0}
   player: {fileID: 0}
   playerRigidBody: {fileID: 0}
   movement: {fileID: 0}

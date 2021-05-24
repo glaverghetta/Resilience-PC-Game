@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+/* This class handles the Main Menu scene. */
 public class beginGame : MonoBehaviour
 {
     public GameObject welcomeScreen;

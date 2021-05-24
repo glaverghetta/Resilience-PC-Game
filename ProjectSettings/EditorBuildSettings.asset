@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 8b7012fde6d57c046bef88ea8d9ad275
   - enabled: 1
+    path: Assets/Scenes/Change Color.unity
+    guid: 16f2ec3081e8af149be5de2e50b1564d
+  - enabled: 1
+    path: Assets/Scenes/Level Welcome Screen.unity
+    guid: 183cbf31403112c4e94c0fa189da4ecb
+  - enabled: 1
+    path: Assets/Scenes/Wrong Answer.unity
+    guid: d5ac480d3b8a17a42b06373ca347d44e
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -17,12 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question 2.unity
     guid: e1a4eb77e5ad4b648b0a245d74c4f566
-  - enabled: 1
-    path: Assets/Scenes/L1 Wrong Answer.unity
-    guid: 0e19227b063070c4f90e8e289569e41a
-  - enabled: 1
-    path: Assets/Scenes/Level 2 Intro.unity
-    guid: 1d7aa46e11b962b4394a6d9ff0eaa505
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: df134e41c49ca714a8c73759d65f9599
@@ -33,12 +36,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Question 4.unity
     guid: 7a7ee96c09fc75a479a802782cf4b270
   - enabled: 1
-    path: Assets/Scenes/L2 Wrong Answer.unity
-    guid: f3da22ff7e08dcd45b966a8aae16faf6
-  - enabled: 1
-    path: Assets/Scenes/Level 3 Intro.unity
-    guid: 1a50551e1ee10114397dfed622bafa73
-  - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: eb96d20df8ea86e4987e271b03222bdd
   - enabled: 1
@@ -47,12 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question 6.unity
     guid: f0423a68911dabb488eae7eff35ab665
-  - enabled: 1
-    path: Assets/Scenes/L3 Wrong Answer.unity
-    guid: 3bbbff1d0be65134fa27dc6674b316e9
-  - enabled: 1
-    path: Assets/Scenes/Level 4 Intro.unity
-    guid: e042da92f5510dd49bf37b3e8ca78b7a
   - enabled: 1
     path: Assets/Scenes/Level 4.unity
     guid: b90cf21608679dd408713461586c00b0
@@ -63,12 +54,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Question 8.unity
     guid: 250e5bdef98a1de4ebd42505a1d76f6e
   - enabled: 1
-    path: Assets/Scenes/L4 Wrong Answer.unity
-    guid: bb7de6298648e6b4298c308c95b1ec3a
-  - enabled: 1
-    path: Assets/Scenes/Level 5 Intro.unity
-    guid: 640d1312948efb64ebf12acbf9a5bb94
-  - enabled: 1
     path: Assets/Scenes/Level 5.unity
     guid: 82f3fe317a11faf4cad5a98e6d366503
   - enabled: 1
@@ -78,14 +63,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Question 10.unity
     guid: 38c9dd8e523178a418e1aaeef92c5df6
   - enabled: 1
-    path: Assets/Scenes/L5 Wrong Answer.unity
-    guid: 66519f7dc032cf344bdcf231ffd615f0
-  - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 31d36ad681172dc4e83d1974d3c42d94
-  - enabled: 1
-    path: Assets/Scenes/Change Color.unity
-    guid: 16f2ec3081e8af149be5de2e50b1564d
   - enabled: 1
     path: Assets/Scenes/Star Rating.unity
     guid: 7c79cb4ec1c3a5c45a0215af05ba4286

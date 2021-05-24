@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
 
+/* This class handles the completion of levels. */
 public class EndTrigger : MonoBehaviour
 {
-
     public GameManager gameManager;
-    public AudioSource source;
+    public GameObject completeLevelUI;              // UI that displays after completing a level
+    public AudioSource source;                      // Sound effect played after completing a level
     
     void OnTriggerEnter()
     {
         source.Play();
-        gameManager.CompleteLevel();
+        completeLevelUI.SetActive(true);
     }
 
 }

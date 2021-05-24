@@ -56,28 +56,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Question6.cs" />
+    <Compile Include="Assets\Scripts\Deprecated\Question6.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
-    <Compile Include="Assets\Scripts\chooseAnswer.cs" />
+    <Compile Include="Assets\Scripts\Deprecated\chooseAnswer.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\beginGame.cs" />
     <Compile Include="Assets\Scripts\QuestionsInLevel.cs" />
     <Compile Include="Assets\Scripts\MusicToggle.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
-    <Compile Include="Assets\Scripts\Question10.cs" />
+    <Compile Include="Assets\Scripts\Deprecated\Question10.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\credits.cs" />
+    <Compile Include="Assets\Scripts\Deprecated\credits.cs" />
     <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Question8.cs" />
+    <Compile Include="Assets\Scripts\Deprecated\Question8.cs" />
     <Compile Include="Assets\Scripts\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\Move Scripts\MoveObstacleScript.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\WelcomeScreenWrongAnswer.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\StarRating.cs" />
+    <Compile Include="Assets\Scripts\MultiselectQuestion.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mats\NoFog.shader" />

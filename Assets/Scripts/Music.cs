@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* This script deals with the enabling and disabling of the game music. */
 public class Music : MonoBehaviour
 {
     public static bool musicActive = true;
     GameObject music;
     AudioSource source;
 
+    /* Find the music GameObject and turn it off if the user has disabled music */
     public void Start()
     {
         music = GameObject.FindGameObjectWithTag("Music");
         source = music.GetComponent<AudioSource>();
         if (!musicActive)
         {
-            print("got here");
-            //music.gameObject.GetComponent("Audio Source").gameObject.SetActive(false);
             source.enabled = false;
         }
     }
@@ -25,15 +25,12 @@ public class Music : MonoBehaviour
     {
         if (musicActive)
         {
-            print("false");
             source.enabled = false;
             musicActive = false;
         }
         else
         {
-            print("true");
             source.enabled = true;
-            //music.gameObject.GetComponent("Audio Source").gameObject.SetActive(true);
             musicActive = true;
         }       
     }

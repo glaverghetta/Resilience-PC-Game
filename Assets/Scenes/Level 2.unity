@@ -7034,7 +7034,7 @@ PrefabInstance:
     - target: {fileID: 1524563377675104354, guid: b69e6827f3a73da49a6b7f0f51c86083,
         type: 3}
       propertyPath: m_Name
-      value: Level 2 Ground
+      value: The Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1524563377675104354, guid: b69e6827f3a73da49a6b7f0f51c86083,
         type: 3}
@@ -8879,12 +8879,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a684f4cacda6d1c4686e14e248593028, type: 3}
---- !u!1 &764386612 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6192410350765958384, guid: 6b6293bc6bb02404aa6f94c0794b086b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3000357888428794222}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &766756403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25654,6 +25648,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 12916061513201760, guid: 83a459ce8db523547b7d68521adef8c5,
+        type: 3}
+      propertyPath: sidewaysForce
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 12916061513201761, guid: 83a459ce8db523547b7d68521adef8c5,
         type: 3}
       propertyPath: m_RootOrder
@@ -25782,17 +25781,17 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1856023721}
+      objectReference: {fileID: 0}
     - target: {fileID: 957761485276369742, guid: 8293c81339d0b31468de5ddbb597d131,
         type: 3}
       propertyPath: completeLevelUI
       value: 
-      objectReference: {fileID: 1913943032}
+      objectReference: {fileID: 0}
     - target: {fileID: 957761485276369742, guid: 8293c81339d0b31468de5ddbb597d131,
         type: 3}
       propertyPath: answerQuestionUI
       value: 
-      objectReference: {fileID: 764386612}
+      objectReference: {fileID: 0}
     - target: {fileID: 957761485276369743, guid: 8293c81339d0b31468de5ddbb597d131,
         type: 3}
       propertyPath: m_Name
@@ -26195,6 +26194,11 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1910836349}
+    - target: {fileID: 3548568178491497518, guid: 5b6bc785cf5794b4bba9e146d10f3c92,
+        type: 3}
+      propertyPath: completeLevelUI
+      value: 
+      objectReference: {fileID: 1913943032}
     - target: {fileID: 3548568178491497519, guid: 5b6bc785cf5794b4bba9e146d10f3c92,
         type: 3}
       propertyPath: m_RootOrder
