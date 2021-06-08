@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+
         // If a player object exists in the current scene, this is one of the game levels (not a question scene or menu)
         if(GameObject.FindGameObjectWithTag("Player") != null)
         {
@@ -76,7 +77,10 @@ public class GameManager : MonoBehaviour
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        if (currentSceneIndex + 1 < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        }
     }
 
     public void ReloadScene()

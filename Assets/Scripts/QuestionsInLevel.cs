@@ -32,17 +32,23 @@ public class QuestionsInLevel : MonoBehaviour
 
     void Start()
     {
-        FindObjectOfType<GameManager>().restartLevelEvent += ShowQuestion;
+        if (FindObjectOfType<GameManager>() != null)
+        {
+            FindObjectOfType<GameManager>().restartLevelEvent += ShowQuestion;
+        }
 
         // Find all move back points in the scene
         moveBackPoints = GameObject.FindGameObjectsWithTag("Move back point");
 
         // Determine which move back point is closest to the start of the level
-        earliestMoveBackPoint = moveBackPoints[0];
-        for(int i = 1; i < moveBackPoints.Length; i++)
+        if (moveBackPoints.Length > 0)
         {
-            if (moveBackPoints[i].transform.position.z < earliestMoveBackPoint.transform.position.z)
-                earliestMoveBackPoint = moveBackPoints[i];
+            earliestMoveBackPoint = moveBackPoints[0];
+            for (int i = 1; i < moveBackPoints.Length; i++)
+            {
+                if (moveBackPoints[i].transform.position.z < earliestMoveBackPoint.transform.position.z)
+                    earliestMoveBackPoint = moveBackPoints[i];
+            }
         }
     }
 

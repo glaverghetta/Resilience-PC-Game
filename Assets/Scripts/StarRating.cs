@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 /* This class manages the Star Ratings that the player earns after completing each level. */
 public class StarRating : MonoBehaviour
 {
-    public static int currentStarRating = 3;
-    public static int nextLevel = 2;
+    public static int currentStarRating = 3;        // The star rating that the player has for the level they are currently playing
+    public static int nextLevel = 2;                // build index of the questions scene following the current level (1 + build index of current level, refer to GameManager.cs for arrangement of scenes)
 
     public GameObject oneStarUI;
     public GameObject twoStarsUI;
@@ -30,6 +30,7 @@ public class StarRating : MonoBehaviour
 
     public void OnGameOver()
     {
+        // Colliding with an obstacle sets the player's rating to 2 if it is not already 1
         FindObjectOfType<GameManager>().gameOverEvent -= OnGameOver;
         if(currentStarRating != 1)
         {
@@ -39,6 +40,7 @@ public class StarRating : MonoBehaviour
 
     public void OnWrongAnswer()
     {
+        // Incorrectly answering a question in a level sets the star rating to 1
         FindObjectOfType<QuestionsInLevel>().wrongAnswerEvent -= OnWrongAnswer;
         currentStarRating = 1;
     }

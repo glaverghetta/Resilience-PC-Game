@@ -9,6 +9,8 @@ TagManager:
   - Moving Obstacle
   - StartingPoint
   - Move back point
+  - Ground
+  - Rainbow
   layers:
   - Default
   - TransparentFX

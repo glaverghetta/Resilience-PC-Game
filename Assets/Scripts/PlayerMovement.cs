@@ -8,13 +8,34 @@ public class PlayerMovement : MonoBehaviour
     public float forwardForce = 200f;       // forward force applied to the player
     public float sidewaysForce = 200f;      // force used to move left or right
 
+    //bool gravityWasOn;                          // was gravity enabled when the game was paused?
+    //Vector3 savedVelocity;                        // velocty that the player had at the moment that the game is paused
+    //Vector3 savedVelocityDirection;             // the direction that the player was moving when the game was paused
+    //Quaternion savedRotation;                   // the player's rotation at the moment the game was paused
+
     bool canJump = true;
     bool canMove = true;
 
     void Start()
     {
-        FindObjectOfType<QuestionsInLevel>().finishedMovingEvent += enableMovement;
-        FindObjectOfType<PlayerCollision>().playerCollisionEvent += disableMovement;
+        if (FindObjectOfType<QuestionsInLevel>() != null)
+        {
+            FindObjectOfType<QuestionsInLevel>().finishedMovingEvent += enableMovement;
+        }
+
+        if (FindObjectOfType<PlayerCollision>() != null)
+        {
+            FindObjectOfType<PlayerCollision>().playerCollisionEvent += disableMovement;
+            FindObjectOfType<PlayerCollision>().playerCollisionEvent += OnHitGround;
+            FindObjectOfType<PlayerCollision>().hitGroundEvent += OnHitGround;
+        }
+
+        /*if(FindObjectOfType<PauseGame>() != null)
+        {
+          *//*  FindObjectOfType<PauseGame>().pauseGameEvent += OnPauseGame;
+            FindObjectOfType<PauseGame>().unpauseGameEvent += OnUnpauseGame;*//*
+        }*/
+
     }
 
     void FixedUpdate() //FixedUpdate is prefered over Update for handling physics
@@ -23,15 +44,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(0, 0, forwardForce * Time.deltaTime); // deltaTime accounts for differences in framerate
             rb.AddForce(Input.GetAxisRaw("Horizontal") * sidewaysForce * Time.deltaTime, 0, 0);
-
-            /*Vector3 moveInput = new Vector3(Input.GetAxis("Horizontal") * sidewaysForce, 0, 0);
-            Vector3 forwardMovement = new Vector3(0, 0, 1 * forwardForce);
-            Vector3 moveAmount = (moveInput + forwardMovement) * Time.deltaTime;
-            rb.velocity = moveAmount;*/
-
-            //Vector3 3 moveVelocity = moveInput.normalized * 
-
-            
 
             if (rb.position.y < -1f)
             {
@@ -55,10 +67,37 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.collider.name == "The Ground")
+        if (other.collider.tag == "Ground")
         {
             canJump = true;
         }
+    }
+
+    /*void OnPauseGame()
+    {
+        gravityWasOn = rb.useGravity;
+
+        rb.useGravity = false;
+        savedVelocity = rb.velocity;
+        //savedVelocityDirection = rb.velocity.normalized;
+        rb.velocity = Vector3.zero;
+        savedRotation = rb.rotation;
+        rb.freezeRotation = true;
+    }
+
+    void OnUnpauseGame()
+    {
+        if (gravityWasOn)
+            rb.useGravity = true;
+
+        performRotation = true;
+        rb.velocity = savedVelocity;
+        rb.freezeRotation = false;
+    }
+*/
+    void OnHitGround()
+    {
+        //performRotation = false;
     }
 
     void enableMovement()

@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\beginGame.cs" />
+    <Compile Include="Assets\Scripts\MultiselectQuestion.cs" />
     <Compile Include="Assets\Scripts\QuestionsInLevel.cs" />
     <Compile Include="Assets\Scripts\MusicToggle.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\Scripts\WelcomeScreenWrongAnswer.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\StarRating.cs" />
-    <Compile Include="Assets\Scripts\MultiselectQuestion.cs" />
+    <Compile Include="Assets\Scripts\ColorChanger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mats\NoFog.shader" />
