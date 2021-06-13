@@ -2450,14 +2450,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 152
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Change Player Color
+  m_Text: Change Player Appearance
 --- !u!222 &680347138
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5928,7 +5928,7 @@ GameObject:
   - component: {fileID: 1994224274}
   - component: {fileID: 1994224273}
   m_Layer: 5
-  m_Name: Change Color
+  m_Name: Change Appearance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6021,7 +6021,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Change Color
+          m_StringArgument: Change Appearance
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &1994224275
