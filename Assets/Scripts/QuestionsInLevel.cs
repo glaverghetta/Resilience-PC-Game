@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 /* This class manages the Questions that are asked inside each level. It handles the asking of the questions and receives the player's answers. */
@@ -14,6 +12,7 @@ public class QuestionsInLevel : MonoBehaviour
     public GameObject[] moveBackPoints;
     public GameObject earliestMoveBackPoint;
     public GameObject player;
+    public GameObject playerCamera;
     public Rigidbody playerRigidBody;
 
     public PlayerMovement movement;
@@ -32,6 +31,8 @@ public class QuestionsInLevel : MonoBehaviour
 
     void Start()
     {
+        playerCamera = GameObject.FindGameObjectWithTag("MainCamera");
+
         if (FindObjectOfType<GameManager>() != null)
         {
             FindObjectOfType<GameManager>().restartLevelEvent += ShowQuestion;
@@ -87,8 +88,10 @@ public class QuestionsInLevel : MonoBehaviour
         }
 
         Vector3 vectorToTravel = pointToTravelTo.transform.position; //(pointToTravelTo.transform.position.x, pointToTravelTo.transform.position.y, pointToTravelTo.transform.position.z);
+        Vector3 cameraVectorToTravel = vectorToTravel + FindObjectOfType<FollowPlayer>().GetOffset();
 
         StartCoroutine(MoveOverSeconds(player, vectorToTravel, 1.5f));
+        StartCoroutine(MoveOverSeconds(playerCamera, cameraVectorToTravel, 1.5f));
     }
 
     // Moves objectToMove from its current location to end over time seconds

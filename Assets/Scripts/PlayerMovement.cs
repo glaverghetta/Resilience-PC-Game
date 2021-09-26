@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float forwardForce = 200f;       // forward force applied to the player
     public float sidewaysForce = 200f;      // force used to move left or right
+    public float jumpForce = 7.5f;         // force applied upon jumping
 
     //bool gravityWasOn;                          // was gravity enabled when the game was paused?
     //Vector3 savedVelocity;                        // velocty that the player had at the moment that the game is paused
@@ -59,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space) && canJump)
             {
-                rb.AddForce(0, 7.5f, 0, ForceMode.VelocityChange);
+                rb.AddForce(0, jumpForce, 0, ForceMode.VelocityChange);
                 canJump = false;
             }
         }

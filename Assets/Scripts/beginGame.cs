@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 /* This class handles the Main Menu scene. */
 public class beginGame : MonoBehaviour
 {
@@ -27,7 +26,6 @@ public class beginGame : MonoBehaviour
             component.SetActive(true);
             welcomeScreen.SetActive(false);
         }
-        
     }
 
     /* Hide the specified UI element */
@@ -50,5 +48,3 @@ public class beginGame : MonoBehaviour
         SceneManager.LoadScene(26);
     }
 }
-
-

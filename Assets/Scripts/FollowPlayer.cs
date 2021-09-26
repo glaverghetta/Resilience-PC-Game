@@ -6,9 +6,41 @@ public class FollowPlayer : MonoBehaviour
     public Transform player;
     public Vector3 offset;
 
-    // Update is called once per frame
+    private bool hasCollided = false;
+
+
+    private void Start()
+    {
+        if (FindObjectOfType<PlayerCollision>() != null)
+        {
+            FindObjectOfType<PlayerCollision>().playerCollisionEvent += StopCameraFollow;
+        }
+
+        if (FindObjectOfType<QuestionsInLevel>() != null)
+        {
+            FindObjectOfType<QuestionsInLevel>().finishedMovingEvent += StartCameraFollow;
+        }
+    }
+
     void Update()
     {
-        transform.position = player.position + offset;
+        if(!hasCollided)
+            transform.position = player.position + offset;
+
+    }
+
+    void StopCameraFollow()
+    {
+        hasCollided = true;
+    }
+
+    void StartCameraFollow()
+    {
+        hasCollided = false;
+    }
+
+    public Vector3 GetOffset()
+    {
+        return offset;
     }
 }

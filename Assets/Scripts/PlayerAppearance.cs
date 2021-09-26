@@ -20,7 +20,7 @@ public class PlayerAppearance : MonoBehaviour
         Blue
     }
 
-    public static appearance playerAppear = appearance.Rainbow;    // Player's appearance value, defaults to Rainbow
+    public static appearance playerAppear = appearance.SoccerBall;    // Player's appearance value, defaults to Rainbow
 
     GameObject player;
     MeshRenderer playerRend;
