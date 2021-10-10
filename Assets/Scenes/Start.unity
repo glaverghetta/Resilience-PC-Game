@@ -1670,7 +1670,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2.4307, y: 0.2}
-  m_SizeDelta: {x: 498.2687, y: 365.32892}
+  m_SizeDelta: {x: 517.63135, y: 394.37726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &483600606
 MonoBehaviour:
@@ -1721,13 +1721,13 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Your goal is to reach the end of each stage.\n\nAvoid colliding with obstacles
-    by holding \ndown A to move left and D to move right.\nPress the spacebar to
-    jump.\n\nIf you collide with an obstacle, you will be\nasked a question. Answering
-    correctly will\nallow you to keep moving forward, while\nanswering incorrectly
-    will force you to restart\nthe stage.\n\nAt the end of each stage, you will be
-    given \na star rating based on how well you did. \nClick the \"Star Rating\"
-    button to learn more \nabout each rating. Otherwise, click\n\"Got it!\" to begin.\n\nRemember:
-    you can do this!"
+    by holding  down A \nto move left and D to move right. You must press\nthe spacebar
+    to jump over orange obstacles.\n\nIf you collide with an obstacle, you will be
+    asked \na question. Answering correctly will allow you to keep \nmoving forward,
+    while answering incorrectly will force \nyou to restart the stage.\n\nAt the
+    end of each stage, you will be given a star rating based \non how well you did.
+    Click the \"Star Rating\" button to learn more \nabout each rating. Otherwise,
+    click \"Got it!\" to begin.\n\nRemember: you can do this!"
 --- !u!222 &483600608
 CanvasRenderer:
   m_ObjectHideFlags: 0

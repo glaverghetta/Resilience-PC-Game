@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\WelcomeScreenWrongAnswer.cs" />
     <Compile Include="Assets\Scripts\PlayerAppearance.cs" />
     <Compile Include="Assets\Scripts\StarRating.cs" />
+    <Compile Include="Assets\Scripts\JumpText.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mats\NoFog.shader" />
